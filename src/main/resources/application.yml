@@ -1,5 +1,5 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://root:pass12345@localhost:27017
-      database: shtnr
+      uri: ${SPRING_DATA_MONGODB_URI} #mongodb://root:pass12345@localhost:27017
+      database: ${SPRING_DATA_MONGODB_DATABASE} #shtnr
